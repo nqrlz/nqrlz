@@ -362,8 +362,29 @@ https://serp.co/tools/css-reset/
     overflow: hidden;
   }
 
+  h1 {
+    text-indent: -1000px;
+  }
+
   header {
     max-width: 80%;
     margin: 0 auto;
     color: white;
+  }
+
+  a:link {
+    color: white;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  svg {
+    width: 300px;
+    margin-bottom: 2rem;
+  }
+
+  .st0 {
+    fill: #fff;
   }
